@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>AssFam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Liens vers la Foire aux Questions et le Quizz.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2285%22></text></svg>">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;500;400&display=swap');
+    :root {
+      --main-bg: #f7f8fa;
+      --main-bg-light: #fff;
+      --primary: #ff6b2c;
+      --primary-dark: #d14900;
+      --label-bg: #ff6b2c;
+      --label-color: #fff;
+      --card-bg: #fff;
+      --card-overlay: rgba(38,48,72,0.08);
+      --card-shadow: 0 6px 26px rgba(30,36,51,0.10), 0 2px 8px rgba(0,0,0,0.03);
+      --radius: 26px;
+    }
+    html, body {
+      margin: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: var(--main-bg);
+      color: #23283a;
+      scroll-behavior: smooth;
+      min-height: 100vh;
+    }
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: var(--main-bg-light);
+      box-shadow: 0 2px 18px #ff6b2c12;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 36px 3vw 16px 3vw;
+      border-radius: 0 0 var(--radius) var(--radius);
+      z-index: 20;
+    }
+    .header-title {
+      font-size: 2.3rem;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: 0.03em;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-shadow: 0 2px 16px #ffb37033;
+      user-select: none;
+      margin-bottom: 12px;
+    }
+    .header-ai {
+      font-size: 1.1rem;
+      color: #2c3142;
+      font-weight: 600;
+      background: #ede7e2;
+      padding: 7px 22px 7px 15px;
+      border-radius: 20px 7px 20px 7px;
+      letter-spacing: 0.07em;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      box-shadow: 0 1.5px 8px #ffb37022;
+      margin-bottom: 0;
+    }
+    main {
+      margin-top: 170px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-list {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: stretch;
+      gap: 38px;
+      width: 100%;
+      max-width: 800px;
+      min-height: 330px;
+    }
+    .card-link {
+      position: relative;
+      text-decoration: none;
+      color: inherit;
+      background: var(--card-bg);
+      border-radius: 22px;
+      box-shadow: var(--card-shadow);
+      min-width: 270px;
+      max-width: 320px;
+      width: 40vw;
+      flex: 1 1 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      border: 2.2px solid transparent;
+      transition: transform .14s, box-shadow .15s, border-color .14s, background .13s;
+      margin-bottom: 6px;
+      z-index: 2;
+      cursor: pointer;
+    }
+    .card-link:hover {
+      transform: scale(1.04) translateY(-7px) rotate(-0.7deg);
+      box-shadow: 0 14px 38px #ffb37027;
+      border-color: var(--primary);
+    }
+    .card-bgimg {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+      transition: filter .13s;
+    }
+    .card-link:hover .card-bgimg {
+      filter: brightness(0.96) grayscale(0.03);
+    }
+    .card-overlay {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: var(--card-overlay);
+      opacity: 0.70;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .card-fade {
+      position: absolute;
+      left: 0;
+      top: 75%;
+      width: 100%;
+      height: 25%;
+      pointer-events: none;
+      z-index: 3;
+      background: linear-gradient(to bottom, rgba(255,255,255,0.0) 0%, #fff 100%);
+    }
+    .card-label {
+      position: absolute;
+      left: 0; bottom: 0;
+      background: var(--label-bg);
+      color: var(--label-color);
+      padding: 13px 28px 13px 18px;
+      border-radius: 0 15px 0 0;
+      font-size: 1.05rem;
+      font-weight: 700;
+      z-index: 4;
+      letter-spacing: 0.03em;
+      box-shadow: 0 2px 18px #ffb37030;
+      display: flex;
+      align-items: center;
+      min-height: 32px;
+    }
+    @media (max-width: 900px) {
+      .header-title { font-size: 1.5rem;}
+    }
+    @media (max-width: 800px) {
+      .card-list { flex-wrap: wrap; }
+      .card-link { flex: 1 1 90vw; width: 90vw; min-width: 170px; max-width: 98vw;}
+    }
+    @media (max-width: 600px) {
+      .card-list { flex-direction: column; gap: 22px;}
+      .card-link { max-width: 98vw; min-width: 0; width: 98vw;}
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <div class="header-title">
+    <span style="font-size:2.1rem;line-height:1"></span>
+   OUTILS
+  </div>
+  <div class="header-ai">
+    <span style="font-size:1.15em;"></span>
+    Assistant Familiaux
+  </div>
+</header>
+<main>
+  <div class="card-list">
+    <a href="faq.html" class="card-link">
+      <div class="card-bgimg" style="background-image:url('images/faq.webp');"></div>
+      <div class="card-overlay"></div>
+      <div class="card-fade"></div>
+      <div class="card-label">Foire aux Questions</div>
+    </a>
+    <a href="quizz.html" class="card-link">
+      <div class="card-bgimg" style="background-image:url('images/quiz.webp');"></div>
+      <div class="card-overlay"></div>
+      <div class="card-fade"></div>
+      <div class="card-label">Un métier fait pour moi ?</div>
+    </a>
+  </div>
+</main>
+</body>
+</html>

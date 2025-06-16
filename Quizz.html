@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎯 Devenir Assitant(e) Familial(e) ? - Auto-positionnement</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #2a5298;
+      --primary-dark: #18305c;
+      --accent: #fbad2c;
+      --success: #27ae60;
+      --danger: #b44b4b;
+      --info: #20539b;
+      --bg-gradient: linear-gradient(120deg, #eaf1fa 0%, #d1d9ec 100%);
+      --card-bg: #f7fafd;
+      --border: #cdd8f3;
+      --radius: 17px;
+    }
+    body {
+      background: var(--bg-gradient);
+      font-family: 'Inter', 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0; padding: 0;
+      color: var(--primary-dark);
+      min-height: 100vh;
+    }
+    .container {
+      width: 95%; max-width: 980px; margin: 2.5rem auto;
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: 0 8px 36px rgba(40,82,120,0.13);
+      padding: 2.5rem 2rem 1rem 2rem;
+      position: relative;
+      border: 1.5px solid var(--border);
+    }
+    nav {
+      display: flex; justify-content: center; gap: 16px; margin-bottom: 18px;
+    }
+    nav a {
+      display: inline-block; font-size: 1rem; font-weight: bold;
+      padding: 10px 24px; border-radius: 8px; text-decoration: none;
+      background: var(--primary); color: #fff; transition: box-shadow .19s, background .18s;
+      box-shadow: 0 2px 8px rgba(40,82,120,0.09);
+    }
+    nav a.faq { background: var(--accent); color: #333; }
+    nav a.faq:hover { background: #e0a800; color: #222; }
+    nav a.home:hover { background: #16335a; }
+    header h1 {
+      text-align: center; color: var(--primary); margin-top: 0; font-size: 2.2rem; font-weight: 700;
+      letter-spacing: .01em; margin-bottom: 0.4em;
+    }
+    header .subtitle {
+      text-align: center; color: var(--info); font-size: 1.15rem; font-weight: 500; margin-bottom: 1.2em;
+    }
+    .progress-bar {
+      width: 98%; height: 8px; background: var(--border); border-radius: 7px; margin: 16px 0 22px 0;
+      overflow: hidden;
+    }
+    .progress-bar-inner {
+      height: 100%; background: var(--primary); width: 0%; transition: width 0.3s cubic-bezier(.4,1,.4,1);
+    }
+    form { margin-bottom: 1.5rem; }
+    fieldset { border: none; margin: 0; padding: 0; }
+    legend { font-size: 1.3rem; font-weight: 600; padding-bottom: 0.9em; color: var(--primary-dark);}
+    .quiz-list { list-style: none; padding: 0; margin: 0; }
+    .quiz-list li {
+      background: var(--card-bg); margin-bottom: 1.1rem; border-left: 6px solid var(--primary);
+      border-radius: 11px; padding: 1.1rem 1.5rem; font-size: 1.09rem; box-shadow: 0 2px 9px rgba(60,110,180,.04);
+      position: relative; display: flex; flex-direction: column; gap: 0.55em;
+      transition: border-color 0.25s;
+    }
+    .quiz-list li:focus-within { border-color: var(--accent); }
+    .quiz-list label { margin-left: 1.7em; font-weight: 500; display: block; }
+    .quiz-list li .fa { position: absolute; left: 1rem; top: 1.1rem; font-size: 1.2em; }
+    .slider-container { display: flex; justify-content: center; align-items: center; width: 100%; }
+    input[type="range"] {
+      width: 70%; accent-color: var(--primary);
+      margin: 0; display: block; background: none;
+    }
+    .slider-labels {
+      display: flex; justify-content: space-between; font-size: 0.98em; margin-top: 0.13em; margin-left: 1.7em;
+    }
+    .slider-labels .not-at-all { color: #ff9800 !important; font-weight: 600;}
+    .slider-labels .completely { color: var(--success) !important; font-weight: 600;}
+    .slider-labels span[role="status"] { min-width: 2.1em; text-align: center; font-size: 1.08em; }
+    .result { text-align: center; margin: 2.5rem 0 1.3rem 0; padding: 1.4rem 1.1rem;
+      border-radius: 15px; font-size: 1.19rem; font-weight: 600; display: none; box-shadow: 0 2px 14px rgba(60,110,180,0.08);
+      border: 2.5px solid var(--border);
+    }
+    .result.low { background: #f1f4fa; color: var(--danger); border-color: #e3a9a9; }
+    .result.medium { background: #eaf2fd; color: var(--info); border-color: #b5cdf4;}
+    .result.high { background: #eafaf4; color: var(--success); border-color: #8bd6b8;}
+    .score-indicator { font-size: 2.2rem; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: center; gap: 0.5em;}
+    .score-indicator .fa { font-size: 2.1rem; margin-right: 0.32em;}
+    .to-improve { margin: 1.2em 0 0.7em 0; background: #f8fafd; color: var(--info); border-left: 4px solid var(--primary);
+      border-radius: 7px; padding: 0.7em 1em; font-size: 1.06em; text-align: left; box-shadow: 0 1px 5px rgba(60,110,180,0.04);
+    }
+    .to-improve strong { display: flex; align-items: center; gap: 0.4em; }
+    .to-improve strong .fa-circle-info { color: var(--accent); font-size: 1.16em;}
+    .faq-link, .share-link, .pdf-link {
+      margin: 1.2em 0.5em 0 0.5em; display: inline-block; background: var(--accent); color: #333;
+      text-decoration: none; padding: 0.7em 1.6em; border-radius: 6px; font-weight: 600; box-shadow: 0 2px 10px rgba(60,110,180,0.06);
+      transition: background 0.18s, color 0.18s, box-shadow 0.18s; font-size: 1.04em; letter-spacing: 0.01em;
+    }
+    .faq-link .fa, .pdf-link .fa, .share-link .fa { margin-right: 0.5em; }
+    .faq-link:hover, .pdf-link:hover, .share-link:hover { background: #e0a800; color: #222;}
+    .btns-group { display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;}
+    button, .btn-reset {
+      display: block; margin: 0 auto; background: linear-gradient(90deg,var(--primary) 60%,#3a6cc4 100%);
+      color: #fff; border: none; border-radius: 7px; padding: 1.08rem 2.2rem; font-size: 1.15rem; font-weight: 700;
+      cursor: pointer; transition: background 0.18s, box-shadow 0.18s; box-shadow: 0 2px 8px rgba(60,110,180,0.08);
+      letter-spacing: 0.01em;
+    }
+    .btn-reset { background: #e1e4e7; color: #3a6cc4; font-weight: 600; margin-top: 1.2em;}
+    .btn-reset:hover { background: #cdd8f3; color: #16335a;}
+    button .fa-arrow-right { margin-left: 0.6em; font-size: 1.1em;}
+    button:hover { background: linear-gradient(90deg,#16335a 60%,#254d84 100%);}
+    .reminder { background: #eaf2fd; border: 1.5px dashed var(--primary); color: var(--info); border-radius: 9px;
+      margin: 2.1rem 0 1rem 0; padding: 1.2rem 1.1rem; font-size: 1.09rem; box-shadow: 0 1px 8px rgba(60,110,180,0.03);}
+    .reminder-title { font-weight: 700; font-size: 1.13rem; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.5em;}
+    .reminder-title .fa-clipboard-check { color: #4aa03e; font-size: 1.13em;}
+    .reminder ul { margin:0.7rem 0 0 0.5em; padding:0; list-style:none;}
+    .reminder li { margin-bottom: 0.4em; display: flex; align-items: center; gap: 0.5em;}
+    .reminder li .fa-bed { color: #6c3483;}
+    .reminder li .fa-shower { color: #16a085;}
+    .reminder li .fa-calendar-check { color: #f39c12;}
+    @media (max-width: 800px) {
+      .container { padding: 1.1rem 0.3rem 0.8rem 0.3rem; }
+      header h1 { font-size: 1.17rem; }
+      .quiz-list li { font-size: 1em;}
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1><span class="icon-main"><i class="fa-solid fa-circle-question" style="color:#fbad2c;"></i></span> Test d'auto-positionnement</h1>
+      <div class="subtitle">Découvrez si ce métier est fait pour vous <i class="fa-solid fa-arrow-down"></i></div>
+         </header>
+    <nav>
+      <a href="index.html" class="home" aria-label="Accueil">🏠 Accueil</a>
+      <a href="faq.html" class="faq" aria-label="Consulter la FAQ">❓ FAQ</a>
+    </nav>
+    <div class="progress-bar" aria-hidden="true"><div class="progress-bar-inner" id="progressBar"></div></div>
+    <form id="quizForm" autocomplete="off">
+      <fieldset>
+        <legend>Vos réponses</legend>
+        <ul class="quiz-list" id="quizQuestions">
+          <!-- Les questions sont injectées ici par JS -->
+        </ul>
+      </fieldset>
+      <div class="btns-group">
+        <button type="button" onclick="calculateScore()" aria-label="Voir mon résultat">Voir mon résultat <i class="fa-solid fa-arrow-right"></i></button>
+        <button type="button" class="btn-reset" onclick="resetQuiz()" aria-label="Recommencer le test"><i class="fa-solid fa-rotate-left"></i> Recommencer</button>
+      </div>
+    </form>
+    <div id="result" class="result" role="status" aria-live="polite"></div>
+    <div class="btns-group" id="exportBtns" style="display:none;">
+      <a href="#" class="pdf-link" onclick="exportPDF(); return false;"><i class="fa-solid fa-file-arrow-down"></i>Exporter en PDF</a>
+      <a href="#" class="share-link" onclick="shareResult(); return false;"><i class="fa-solid fa-share-nodes"></i>Partager</a>
+    </div>
+    <section class="reminder" aria-labelledby="reminderTitle">
+      <span class="reminder-title" id="reminderTitle"><i class="fa-solid fa-clipboard-check"></i> À ne pas oublier : conditions matérielles minimales</span>
+      <ul>
+        <li><i class="fa-solid fa-bed"></i> Chambre de 9 m² minimum par enfant accueilli (personnelle, non partagée)</li>
+        <li><i class="fa-solid fa-shower"></i> Espace familial stable, propre, accueillant, conforme</li>
+        <li><i class="fa-solid fa-calendar-check"></i> Être disponible à temps plein pour les accueils (pas d’autre activité pro à temps plein)</li>
+      </ul>
+    </section>
+  </main>
+  <!-- jsPDF from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    // Questions, conseils, ressources personnalisées
+    const questions = [
+      {
+        text: "Êtes-vous prêt(e) à accueillir un enfant à tout moment, y compris la nuit ou en urgence ?",
+        icon: "fa-moon icon-moon",
+        faqId: "faq-q-disponibilite",
+        conseil: "Le métier peut impliquer des accueils en urgence, de nuit ou le WE. Soyez prêt(e) à cette disponibilité réelle.",
+        resource: { url: "faq.html#faq-q-disponibilite", label: "Voir la FAQ" }
+      },
+      {
+        text: "Comprenez-vous que ce n’est pas votre enfant, et qu’il convient de respecter son histoire, ses parents, ses repères ?",
+        icon: "fa-people-arrows icon-people",
+        faqId: "faq-q-respect-famille",
+        conseil: "L'enfant garde des liens avec sa famille. Il est essentiel de respecter son histoire et ses repères.",
+        resource: { url: "faq.html#faq-q-respect-famille", label: "Voir la FAQ" }
+      },
+      {
+        text: "Savez-vous adapter un cadre clair, co-construire des règles, sans entrer dans la confrontation ?",
+        icon: "fa-scale-balanced icon-balance",
+        faqId: "faq-q-cadre",
+        conseil: "Fixer un cadre sans rigidité, dialoguer plutôt que sanctionner, aide l'enfant à s'intégrer.",
+        resource: { url: "faq.html#faq-q-cadre", label: "Voir la FAQ" }
+      },
+      {
+        text: "Êtes-vous capable de demander de l’aide lorsque cela est nécessaire, et de travailler en équipe avec des professionnels ?",
+        icon: "fa-handshake-angle icon-help",
+        faqId: "faq-q-equipe",
+        conseil: "N'hésitez jamais à solliciter l'équipe ASE, les réunions ou l'aide psychologique.",
+        resource: { url: "faq.html#faq-q-equipe", label: "Voir la FAQ" }
+      },
+      {
+        text: "Pouvez-vous accepter que les liens créés ne durent pas toujours, même s’ils sont forts ?",
+        icon: "fa-link-slash icon-link",
+        faqId: "faq-q-separation",
+        conseil: "La séparation fait partie du métier, même si elle est difficile. Préparez-vous à l'anticiper.",
+        resource: { url: "faq.html#faq-q-separation", label: "Voir la FAQ" }
+      },
+      {
+        text: "Êtes-vous à l’aise avec l’idée d’exercer un métier à votre domicile, 24h/24, 7j/7, sans “pause” réelle ?",
+        icon: "fa-house-user icon-home",
+        faqId: "faq-q-domicile",
+        conseil: "Le métier envahit la sphère familiale. Il faut préserver un équilibre pour soi et ses proches.",
+        resource: { url: "faq.html#faq-q-domicile", label: "Voir la FAQ" }
+      },
+      {
+        text: "Êtes-vous capable de verbaliser vos émotions et de garder une posture professionnelle, même dans des situations de tension ?",
+        icon: "fa-face-smile icon-smile",
+        faqId: "faq-q-emotions",
+        conseil: "Exprimer ses émotions et demander de l'aide est une force, pas une faiblesse.",
+        resource: { url: "faq.html#faq-q-emotions", label: "Voir la FAQ" }
+      },
+      {
+        text: "Avez-vous conscience que votre rôle est de construire un quotidien stable, sans refaire seul(e) l'éducation de l’enfant ?",
+        icon: "fa-calendar-day icon-calendar",
+        faqId: "faq-q-stabilite",
+        conseil: "L'objectif : stabilité, repères, cadre de vie sécurisant sans se substituer à la famille.",
+        resource: { url: "faq.html#faq-q-stabilite", label: "Voir la FAQ" }
+      },
+      {
+        text: "Êtes-vous disposé(e) à suivre des formations, à vous remettre en question et à évoluer régulièrement ?",
+        icon: "fa-graduation-cap icon-graduation",
+        faqId: "faq-q-formation",
+        conseil: "La formation continue et l'analyse de pratique sont obligatoires et enrichissantes.",
+        resource: { url: "faq.html#faq-q-formation", label: "Voir la FAQ" }
+      },
+            {
+        text: "Pensez-vous pouvoir gérer l’arrivée d’un enfant avec des besoins spécifiques (handicap, troubles, etc.) ?",
+        icon: "fa-wheelchair icon-handicap",
+        faqId: "faq-q-handicap",
+        conseil: "Accueillir un enfant avec des besoins spécifiques demande une adaptation et parfois des aménagements. Renseignez-vous sur les ressources du département.",
+        resource: { url: "faq.html#faq-q-handicap", label: "Voir la FAQ" }
+      },
+      {
+        text: "Êtes-vous à l’aise avec le travail administratif (notes, plannings, comptes rendus) ?",
+        icon: "fa-file-lines icon-admin",
+        faqId: "faq-q-administratif",
+        conseil: "Le métier implique un suivi administratif régulier. Une bonne organisation facilite la vie quotidienne.",
+        resource: { url: "faq.html#faq-q-administratif", label: "Voir la FAQ" }
+      },
+      {
+        text: "Savez-vous organiser des temps de répit et demander du relai ?",
+        icon: "fa-bed icon-repit",
+        faqId: "faq-q-repit",
+        conseil: "Demander un relai n'est pas un échec mais une garantie de qualité d'accueil pour l'enfant.",
+        resource: { url: "faq.html#faq-q-repit", label: "Voir la FAQ" }
+      },
+      {
+        text: "Êtes-vous prêt(e) à accompagner l’enfant lors de séparations/retrouvailles avec sa famille d’origine ?",
+        icon: "fa-people-group icon-visites-famille",
+        faqId: "faq-q-visites-famille",
+        conseil: "L'accompagnement des liens avec la famille d'origine est au cœur du métier. Il faut savoir rester neutre et bienveillant.",
+        resource: { url: "faq.html#faq-q-visites-famille", label: "Voir la FAQ" }
+      },
+      {
+        text: "Saurez-vous gérer les situations de crise (conflits, fugue, hospitalisation, danger) ?",
+        icon: "fa-triangle-exclamation icon-crise",
+        faqId: "faq-q-crise",
+        conseil: "Des protocoles existent pour les situations de crise. Maintenez le lien avec l'équipe ASE et demandez toujours conseil.",
+        resource: { url: "faq.html#faq-q-crise", label: "Voir la FAQ" }
+      }
+    ];
+
+    // Génère les questions avec accessibilité
+    function generateQuestions() {
+      const ul = document.getElementById('quizQuestions');
+      ul.innerHTML = '';
+      questions.forEach((q, idx) => {
+        const num = idx + 1;
+        ul.innerHTML += `
+          <li tabindex="0">
+            <i class="fa-solid ${q.icon}" aria-hidden="true"></i>
+            <label for="q${num}">${q.text}</label>
+            <div class="slider-container">
+              <input type="range" min="0" max="10" value="5" name="q${num}" id="q${num}" aria-valuenow="5" aria-valuemin="0" aria-valuemax="10" aria-label="${q.text}" oninput="updateLabel(this);updateProgress();"/>
+            </div>
+            <div class="slider-labels">
+              <span class="not-at-all"><i class="fa-regular fa-thumbs-down" style="color:#ff9800;"></i> Pas du tout</span>
+              <span id="q${num}-val" role="status" aria-live="polite">5</span>
+              <span class="completely">Oui, tout à fait <i class="fa-regular fa-thumbs-up" style="color:#27ae60;"></i></span>
+            </div>
+          </li>
+        `;
+      });
+    }
+
+    // Barre de progression
+    function updateProgress() {
+      const sliders = document.querySelectorAll('.quiz-list input[type="range"]');
+      let answered = 0;
+      sliders.forEach(slider => { if (slider.value !== '5') answered++; });
+      const percent = Math.round((answered / sliders.length) * 100);
+      document.getElementById('progressBar').style.width = percent + '%';
+    }
+
+    // Update label & progress
+    function updateLabel(slider) {
+      const name = slider.name;
+      document.getElementById(name+"-val").textContent = slider.value;
+      slider.setAttribute('aria-valuenow', slider.value);
+      updateProgress();
+    }
+
+    // Calcul du score & affichage conseils/ressources
+    function calculateScore() {
+      const sliders = document.querySelectorAll('.quiz-list input[type="range"]');
+      let score = 0;
+      let lowPoints = [];
+      let conseilsBloc = "";
+      sliders.forEach((slider, i) => {
+        const val = parseInt(slider.value);
+        score += val;
+        if (val < 5) lowPoints.push(i); // <5 => points à travailler
+      });
+      const total = sliders.length * 10;
+      const scorePercent = Math.round(score * 100 / total);
+
+      // Affichage du résultat global
+      const resultDiv = document.getElementById('result');
+      let cls = '', emoji = '', msg = '';
+      if (scorePercent < 60) {
+        cls = 'low';
+        emoji = '<i class="fa-solid fa-hourglass-half" style="color:#e67e22;"></i>';
+        msg = `<span class='score-indicator'>${emoji} ${scorePercent} / 100</span><br>
+        Prenez le temps de réfléchir à votre projet : ce métier demande un réel engagement et ne s’improvise pas.<br>
+        N’hésitez pas à solliciter des professionnels pour approfondir votre réflexion.`;
+      } else if (scorePercent < 85) {
+        cls = 'medium';
+        emoji = '<i class="fa-solid fa-thumbs-up" style="color:#27ae60;"></i>';
+        msg = `<span class='score-indicator'>${emoji} ${scorePercent} / 100</span><br>
+        Vous êtes sur la bonne voie. Quelques précisions ou échanges avec des professionnels pourraient vous aider à mûrir votre décision.<br>
+        Restez à l’écoute de vos ressentis et continuez à vous questionner.`;
+      } else {
+        cls = 'high';
+        emoji = '<i class="fa-solid fa-rocket" style="color:#fbad2c;"></i>';
+        msg = `<span class='score-indicator'>${emoji} ${scorePercent} / 100</span><br>
+        Vous semblez avoir le bon état d’esprit !<br>
+        N’hésitez pas à poursuivre vos démarches et à rencontrer des professionnels afin de valider votre projet.`;
+      }
+
+      // Conseils et ressources personnalisés
+      if (lowPoints.length > 0) {
+        conseilsBloc += `<div class="to-improve"><strong><i class="fa-solid fa-circle-info"></i> Points à approfondir :</strong><ul>`;
+        lowPoints.forEach(idx => {
+          const res = questions[idx].resource;
+          conseilsBloc += `<li>
+            <b>${questions[idx].text}</b><br>
+            <span style="font-size:0.98em;">${questions[idx].conseil}</span><br>
+            ${res ? `<a href="${res.url}" target="_blank" rel="noopener" class="faq-link"><i class="fa-regular fa-circle-question"></i>${res.label}</a>` : ''}
+          </li>`;
+        });
+        conseilsBloc += `</ul></div>`;
+      }
+
+      resultDiv.className = 'result ' + cls;
+      resultDiv.innerHTML = msg + conseilsBloc;
+      resultDiv.style.display = 'block';
+      document.getElementById('exportBtns').style.display = 'flex';
+
+      // Focus/scroll sur le résultat
+      setTimeout(() => { resultDiv.scrollIntoView({ behavior: 'smooth', block: 'center' }); resultDiv.focus(); }, 100);
+
+      // Stocke résultat pour export PDF/partage
+      window._quizResult = {
+        scorePercent,
+        classe: cls,
+        conseilsBloc,
+        msg: resultDiv.innerText.replace(/[\n\r]+/g, "\n").trim()
+      };
+    }
+
+    // Réinitialiser le test
+    function resetQuiz() {
+      const sliders = document.querySelectorAll('.quiz-list input[type="range"]');
+      sliders.forEach(slider => { slider.value = 5; updateLabel(slider); });
+      document.getElementById('result').style.display = 'none';
+      document.getElementById('exportBtns').style.display = 'none';
+      updateProgress();
+      window._quizResult = undefined;
+    }
+
+    // Export PDF
+    function exportPDF() {
+      const { jsPDF } = window.jspdf;
+      if (!window._quizResult) return;
+      const doc = new jsPDF();
+      doc.setFont("Inter", "normal");
+      doc.setFontSize(17);
+      doc.setTextColor(40, 82, 120);
+      doc.text("Test d'auto-positionnement : Assistant(e) familial(e)", 12, 18);
+      doc.setFontSize(13);
+      doc.setTextColor(33, 53, 155);
+      doc.text("Votre score : " + window._quizResult.scorePercent + " / 100", 12, 32);
+      doc.setFontSize(12);
+      doc.setTextColor(80, 80, 80);
+      let y = 45;
+      doc.text("Conseils et points à approfondir :", 12, y);
+      y += 9;
+      let conseils = window._quizResult.conseilsBloc ? window._quizResult.conseilsBloc.replace(/<[^>]+>/g, '').split('\n') : [];
+      conseils.forEach(line => {
+        if (line.trim() !== "") {
+          doc.text(line.trim(), 14, y);
+          y += 7;
+        }
+      });
+      doc.save("auto-positionnement-assistant-familial.pdf");
+    }
+
+    // Partage du score
+    function shareResult() {
+      if (!window._quizResult) return;
+      const text = encodeURIComponent(
+        "J'ai passé le test d'auto-positionnement pour devenir assistant(e) familial(e) et j'ai obtenu : "
+        + window._quizResult.scorePercent + "/100. "
+        + "Voir le test et la FAQ sur faq.html"
+      );
+      if (navigator.share) {
+        navigator.share({ title: "Test Assistant Familial", text });
+      } else {
+        window.open("mailto:?subject=Test Assistant Familial - Mon score&body=" + text, "_blank");
+      }
+    }
+
+    // Initialisation
+    generateQuestions();
+    updateProgress();
+  </script>
+</body>
+</html>
