@@ -1,0 +1,2013 @@
+{
+  "app": "SUITE_OUTILS_FUSION",
+  "version": 3.2,
+  "generatedAt": "2025-08-10T18:06:10.515Z",
+  "data": {
+    "version": 3.2,
+    "budget": {
+      "prelevements": [
+        {
+          "depense": "Leasing E-2008",
+          "montant": 169.34,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "EDF MAISON",
+          "montant": 320.55,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "ICLOUD APPLE (PAYPAL)",
+          "montant": 2.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "ICLOUD APPLE (PAYPAL)",
+          "montant": 2.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "EPARGNE SAMUEL",
+          "montant": 100,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "ALLIANZ RP",
+          "montant": 135.6,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "TEL BOUYGUES ANGELIQUE",
+          "montant": 8.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "TEL YOUPRICE SAMUEL",
+          "montant": 9.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "TEL BOUYGUES PRISSOU",
+          "montant": 8.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "TEL 2 PRIXTEL JEROME",
+          "montant": 4.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "EAU SUEZ",
+          "montant": 119,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "PRÊT Acquises 2",
+          "montant": 204.58,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "ASSURANCE VIE JEROME",
+          "montant": 15,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "ASSURANCE VIE ANGELIQUE",
+          "montant": 15,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "MICROSOFT ONE DRIVE (PAYPAL)",
+          "montant": 2,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "DROPBOX(PAYPAL)",
+          "montant": 11.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "TEL BOUYGUES JEROME",
+          "montant": 9.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "LINXEA JEROME 1",
+          "montant": 125,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "LINXEA JEROME 2",
+          "montant": 125,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "LINXEA DOUNE",
+          "montant": 250,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "CECOF",
+          "montant": 54,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "DIRECT ASSURANCE VITO",
+          "montant": 68.34,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "DIRECT ASSURANCE E-2008",
+          "montant": 79.46,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "INTERNET BOX BOUYGUES",
+          "montant": 20.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "TAXE FONCIERE MAISON",
+          "montant": 273,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "GOOGLE DRIVE 2",
+          "montant": 2.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "MICROSOFT ONE DRIVE (PAYPAL)",
+          "montant": 13,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "EDF MAISONNETTE",
+          "montant": 89.45,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "NETFLIX",
+          "montant": 19.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "ICLOUD APPLE (PAYPAL)",
+          "montant": 2.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "Leasing E-2008",
+          "montant": 169.34,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "EDF MAISON",
+          "montant": 320.55,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "ICLOUD APPLE (PAYPAL)",
+          "montant": 2.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "ICLOUD APPLE (PAYPAL)",
+          "montant": 2.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "EPARGNE SAMUEL",
+          "montant": 100,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "TEL BOUYGUES ANGELIQUE",
+          "montant": 8.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "TEL YOUPRICE SAMUEL",
+          "montant": 9.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "TEL BOUYGUES PRISSOU",
+          "montant": 8.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "TEL 2 PRIXTEL JEROME",
+          "montant": 4.99,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "ALLIANZ RP",
+          "montant": 254.51,
+          "valide": true,
+          "date": ""
+        },
+        {
+          "depense": "EAU SUEZ",
+          "montant": 119,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "PRÊT Acquises 2",
+          "montant": 204.58,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "ASSURANCE VIE JEROME",
+          "montant": 15,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "ASSURANCE VIE ANGELIQUE",
+          "montant": 15,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "MICROSOFT ONE DRIVE (PAYPAL)",
+          "montant": 2,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "DROPBOX(PAYPAL)",
+          "montant": 11.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "TEL BOUYGUES JEROME",
+          "montant": 9.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "LINXEA JEROME 1",
+          "montant": 125,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "LINXEA JEROME 2",
+          "montant": 125,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "LINXEA DOUNE",
+          "montant": 250,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "DIRECT ASSURANCE C4 PICASSO",
+          "montant": 33.15,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "Direct Assurance ZAFIRA",
+          "montant": 100.49,
+          "valide": false,
+          "date": 1
+        },
+        {
+          "depense": "DIRECT ASSURANCE E-2008",
+          "montant": 83.46,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "CHATGPT",
+          "montant": 23,
+          "valide": false,
+          "date": 1
+        },
+        {
+          "depense": "INTERNET BOX BOUYGUES",
+          "montant": 20.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "TAXE FONCIERE MAISON",
+          "montant": 273,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "GOOGLE DRIVE 2",
+          "montant": 2.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "MICROSOFT ONE DRIVE (PAYPAL)",
+          "montant": 13,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "EDF MAISONNETTE",
+          "montant": 89.45,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "NETFLIX",
+          "montant": 19.99,
+          "valide": false,
+          "date": ""
+        },
+        {
+          "depense": "ICLOUD APPLE (PAYPAL)",
+          "montant": 2.99,
+          "valide": true,
+          "date": ""
+        }
+      ]
+    },
+    "abassfam": {
+      "ang": {
+        "children": [
+          {
+            "name": "PRISCILLIA",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "212",
+            "indemnite": "14.77"
+          },
+          {
+            "name": "ROSA",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "150",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "ANNE-LYSE",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "204",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "KADI",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "92",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "CAMELIA",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "2",
+            "indemnite": "14.77"
+          },
+          {
+            "name": "JONAS",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "6",
+            "indemnite": "14.77"
+          },
+          {
+            "name": "KELLY",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "16",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          }
+        ],
+        "forfait": 5928.2,
+        "repas": 990.16,
+        "smicGlobal": 11.88,
+        "mois": {
+          "0": [
+            31,
+            28,
+            31,
+            30,
+            31,
+            30,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "1": [
+            16,
+            14,
+            22,
+            13,
+            24,
+            30,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "2": [
+            25,
+            26,
+            31,
+            30,
+            31,
+            30,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "3": [
+            26,
+            28,
+            31,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "4": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "5": [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "6": [
+            0,
+            0,
+            0,
+            0,
+            31,
+            -15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "7": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "8": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "9": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "_legacyRaw": {
+          "children": [
+            {
+              "name": "PRISCILLIA",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "212",
+              "indemnite": "14.77"
+            },
+            {
+              "name": "ROSA",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "150",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "ANNE-LYSE",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "204",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "KADI",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "92",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "CAMELIA",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "2",
+              "indemnite": "14.77"
+            },
+            {
+              "name": "JONAS",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "6",
+              "indemnite": "14.77"
+            },
+            {
+              "name": "KELLY",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "16",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            }
+          ],
+          "forfait": "5928.2",
+          "repas": "990.16",
+          "smicGlobal": "11.88",
+          "joursMensuels": [
+            [
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 15
+              },
+              {
+                "plus": 31,
+                "minus": 6
+              },
+              {
+                "plus": 26,
+                "minus": 0
+              },
+              {
+                "plus": 2,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 28,
+                "minus": 0
+              },
+              {
+                "plus": 28,
+                "minus": 14
+              },
+              {
+                "plus": 28,
+                "minus": 2
+              },
+              {
+                "plus": 28,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 9
+              },
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 6,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 30,
+                "minus": 0
+              },
+              {
+                "plus": 30,
+                "minus": 17
+              },
+              {
+                "plus": 30,
+                "minus": 0
+              },
+              {
+                "plus": 7,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 7
+              },
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 30,
+                "minus": 0
+              },
+              {
+                "plus": 30,
+                "minus": 0
+              },
+              {
+                "plus": 30,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 15
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ]
+          ]
+        }
+      },
+      "jer": {
+        "children": [
+          {
+            "name": "JOHANA",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "116",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "LUKA",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "142",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "CHRIST YVAN",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "139",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "KELLY",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "77",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "FATOUMATA",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "81",
+            "indemnite": "17.18"
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          },
+          {
+            "name": "",
+            "smic": 11.88,
+            "sujetion": false,
+            "jours": "0",
+            "indemnite": ""
+          }
+        ],
+        "forfait": 1889.6,
+        "repas": 772.36,
+        "smicGlobal": 11.88,
+        "mois": {
+          "0": [
+            31,
+            28,
+            31,
+            26,
+            31,
+            -31,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "1": [
+            22,
+            16,
+            22,
+            21,
+            19,
+            22,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "2": [
+            0,
+            0,
+            44,
+            25,
+            22,
+            22,
+            26,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "3": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            46,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "4": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            50,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "5": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "6": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "7": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "8": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "9": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "_legacyRaw": {
+          "children": [
+            {
+              "name": "JOHANA",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "116",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "LUKA",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "142",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "CHRIST YVAN",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "139",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "KELLY",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "77",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "FATOUMATA",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "81",
+              "indemnite": "17.18"
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            },
+            {
+              "name": "",
+              "smic": "11.88",
+              "sujetion": false,
+              "jours": "0",
+              "indemnite": ""
+            }
+          ],
+          "forfait": "1889.6",
+          "repas": "772.36",
+          "smicGlobal": "11.88",
+          "joursMensuels": [
+            [
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 9
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 28,
+                "minus": 0
+              },
+              {
+                "plus": 28,
+                "minus": 12
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 9
+              },
+              {
+                "plus": 44,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 30,
+                "minus": 4
+              },
+              {
+                "plus": 30,
+                "minus": 9
+              },
+              {
+                "plus": 30,
+                "minus": 5
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 12
+              },
+              {
+                "plus": 31,
+                "minus": 9
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 31
+              },
+              {
+                "plus": 30,
+                "minus": 8
+              },
+              {
+                "plus": 30,
+                "minus": 8
+              },
+              {
+                "plus": 46,
+                "minus": 0
+              },
+              {
+                "plus": 50,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 31,
+                "minus": 11
+              },
+              {
+                "plus": 31,
+                "minus": 5
+              },
+              {
+                "plus": 31,
+                "minus": 0
+              },
+              {
+                "plus": 46,
+                "minus": 15
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ],
+            [
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              },
+              {
+                "plus": 0,
+                "minus": 0
+              }
+            ]
+          ]
+        }
+      }
+    },
+    "smic": {
+      "rates": [
+        {
+          "rate": "",
+          "months": ""
+        },
+        {
+          "rate": "",
+          "months": ""
+        },
+        {
+          "rate": "",
+          "months": ""
+        }
+      ]
+    },
+    "simupaie": {
+      "params": {
+        "smic": 11.88,
+        "mig": 4.22,
+        "repas": 3.04,
+        "ind77": 17.72,
+        "anciennete": 71.28,
+        "csg": 31.06,
+        "tauxImpot": 3
+      },
+      "nbEnfants": 4
+    },
+    "maison": {}
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "fusion": "immo",
+  "version": 1.1,
+  "data": {
+    "version": 1.1,
+    "budgetImmo": {
+      "entries": [
+        {
+          "name": "FERRY 1",
+          "amount": 572.19,
+          "done": false
+        },
+        {
+          "name": "FERRY 2",
+          "amount": 619.58,
+          "done": false
+        },
+        {
+          "name": "BERARD",
+          "amount": 575.63,
+          "done": false
+        },
+        {
+          "name": "EGLISE T3",
+          "amount": 732.19,
+          "done": false
+        },
+        {
+          "name": "EGLISE STUDIO",
+          "amount": 455.9,
+          "done": false
+        },
+        {
+          "name": "SORLIN",
+          "amount": 824.3,
+          "done": false
+        },
+        {
+          "name": "ACQUISES 1",
+          "amount": 0,
+          "done": false
+        },
+        {
+          "name": "PHOENIX 1",
+          "amount": 584.83,
+          "done": false
+        },
+        {
+          "name": "PHOENIX 2",
+          "amount": 748.77,
+          "done": false
+        },
+        {
+          "name": "PHOENIX 3",
+          "amount": 571.02,
+          "done": false
+        }
+      ],
+      "expenses": [
+        {
+          "name": "CFCAL",
+          "amount": 2073,
+          "done": false
+        },
+        {
+          "name": "Assurances CNO/PNO",
+          "amount": 76.29,
+          "done": false
+        },
+        {
+          "name": "PRIXTEL Tel Immo",
+          "amount": 6.99,
+          "done": false
+        },
+        {
+          "name": "PRÊT SARRAIL",
+          "amount": 830.19,
+          "done": false
+        },
+        {
+          "name": "Entretien PAC ENGIE",
+          "amount": 73,
+          "done": false
+        },
+        {
+          "name": "TAXE FONCIÈRE LAGNIEU",
+          "amount": 192,
+          "done": false
+        },
+        {
+          "name": "TAXE FONCIÈRE AMBERIEU",
+          "amount": 218,
+          "done": false
+        },
+        {
+          "name": "Assurances IMMEUBLES",
+          "amount": 180.56,
+          "done": false
+        },
+        {
+          "name": "DARTY MAX",
+          "amount": 9.99,
+          "done": false
+        },
+        {
+          "name": "Comptable",
+          "amount": 100,
+          "done": false
+        }
+      ]
+    },
+    "panorama": {
+      "biens": [
+        {
+          "siret": "52816893300034",
+          "id": "bien-001",
+          "nom": "FERRY 1",
+          "type": "T2",
+          "dpe": "D",
+          "validite_dpe": "20/12/2032",
+          "lot": "Lot 933",
+          "pdl_elec": "1991013020228",
+          "eau": "D12BA001996U ou M120071",
+          "gaz": "",
+          "surface": 50,
+          "loyer": 621
+        },
+        {
+          "siret": "52816893300034",
+          "id": "bien-002",
+          "nom": "FERRY 2",
+          "type": "T2",
+          "dpe": "C",
+          "validite_dpe": "20/12/2032",
+          "lot": "Lot 1275",
+          "pdl_elec": "1991910320228",
+          "eau": "",
+          "gaz": "",
+          "surface": 50,
+          "loyer": 673
+        },
+        {
+          "siret": "52816893300075",
+          "id": "bien-003",
+          "nom": "BERARD",
+          "type": "T2",
+          "dpe": "D",
+          "validite_dpe": "16/06/2032",
+          "lot": "Lot 1699",
+          "pdl_elec": "19920984058711",
+          "eau": "243507-5",
+          "gaz": "176",
+          "surface": 42,
+          "loyer": 625
+        },
+        {
+          "siret": "52816893300059",
+          "id": "bien-004",
+          "nom": "EGLISE T3",
+          "type": "T3",
+          "dpe": "D",
+          "validite_dpe": "29/06/2032",
+          "lot": "Lot 740",
+          "pdl_elec": "19941244515406",
+          "eau": "380879",
+          "gaz": "138",
+          "surface": 56,
+          "loyer": 795
+        },
+        {
+          "siret": "52816893300059",
+          "id": "bien-005",
+          "nom": "EGLISE STUDIO",
+          "type": "Studio",
+          "dpe": "C",
+          "validite_dpe": "29/06/2032",
+          "lot": "Lot 1046",
+          "pdl_elec": "19941244515406",
+          "eau": "1920320600",
+          "gaz": "",
+          "surface": 21,
+          "loyer": 512
+        },
+        {
+          "siret": "52816893300042",
+          "id": "bien-006",
+          "nom": "SORLIN",
+          "type": "T4",
+          "dpe": "C",
+          "validite_dpe": "02/02/2032",
+          "lot": "Lot 1216",
+          "pdl_elec": "19969464501921",
+          "eau": "",
+          "gaz": "19920405112611 / Compteur 25",
+          "surface": 86,
+          "loyer": 895
+        },
+        {
+          "siret": "52816893300067",
+          "id": "bien-007",
+          "nom": "ACQUISES 1",
+          "type": "T3",
+          "dpe": "C",
+          "validite_dpe": "20/12/2032",
+          "lot": "Lot 1388",
+          "pdl_elec": "5006944655798",
+          "eau": "",
+          "gaz": "",
+          "surface": 60,
+          "loyer": 500
+        },
+        {
+          "siret": "52816893300083",
+          "id": "bien-008",
+          "nom": "PHOENIX 1",
+          "type": "T2",
+          "dpe": "D",
+          "validite_dpe": "13/04/2033",
+          "lot": "Lot 1697",
+          "pdl_elec": "50065494655798",
+          "eau": "685558",
+          "gaz": "",
+          "surface": 26,
+          "loyer": 635
+        },
+        {
+          "siret": "52816893300083",
+          "id": "bien-009",
+          "nom": "PHOENIX 2",
+          "type": "T3",
+          "dpe": "C",
+          "validite_dpe": "13/04/2033",
+          "lot": "Lot 1558",
+          "pdl_elec": "19909406616890",
+          "eau": "685560",
+          "gaz": "",
+          "surface": 38,
+          "loyer": 813
+        },
+        {
+          "siret": "52816893300083",
+          "id": "bien-010",
+          "nom": "PHOENIX 3",
+          "type": "T2",
+          "dpe": "C",
+          "validite_dpe": "13/04/2033",
+          "lot": "Lot 1543",
+          "pdl_elec": "50051022875768",
+          "eau": "685559",
+          "gaz": "",
+          "surface": 27,
+          "loyer": 620
+        }
+      ],
+      "immeubles": [
+        {
+          "contrat": "53456837",
+          "id_biens": [
+            "bien-002"
+          ],
+          "montant": 613.7,
+          "quotepart": 100,
+          "nomBien": "FERRY"
+        },
+        {
+          "contrat": "57372209",
+          "id_biens": [
+            "bien-004",
+            "bien-005"
+          ],
+          "montant": 1130.18,
+          "quotepart": 100,
+          "nomBien": "EGLISE"
+        },
+        {
+          "contrat": "60906962",
+          "id_biens": [
+            "bien-007"
+          ],
+          "montant": 1314.25,
+          "quotepart": 33.65,
+          "nomBien": "ACQUISES"
+        },
+        {
+          "contrat": "62756743",
+          "id_biens": [
+            "bien-010"
+          ],
+          "montant": 542.06,
+          "quotepart": 100,
+          "nomBien": "PHOENIX"
+        }
+      ],
+      "pnos": [
+        {
+          "contrat": "AF303078230",
+          "id_bien": "bien-003",
+          "montant": 122.28
+        },
+        {
+          "contrat": "AF303078243",
+          "id_bien": "bien-004",
+          "montant": 218.76
+        },
+        {
+          "contrat": "AF303078253",
+          "id_bien": "bien-005",
+          "montant": 92.16
+        },
+        {
+          "contrat": "AF303078274",
+          "id_bien": "bien-006",
+          "montant": 400.68
+        },
+        {
+          "contrat": "AF303078262",
+          "id_bien": "bien-007",
+          "montant": 154.8
+        },
+        {
+          "contrat": "COUT DE MENSUALISATION",
+          "id_bien": "__all__",
+          "montant": 32.5
+        }
+      ],
+      "entretiens": [
+        {
+          "contrat": "5313939-24199M",
+          "id_bien": "bien-001",
+          "type": "Entretien PAC",
+          "montant": 156
+        },
+        {
+          "contrat": "5313939-24199M",
+          "id_bien": "bien-002",
+          "type": "Entretien PAC",
+          "montant": 0
+        },
+        {
+          "contrat": "5313939-24199M",
+          "id_bien": "bien-007",
+          "type": "Entretien PAC",
+          "montant": 156
+        },
+        {
+          "contrat": "5313939-24199M",
+          "id_bien": "bien-008",
+          "type": "Entretien PAC",
+          "montant": 180
+        },
+        {
+          "contrat": "5313939-24199M",
+          "id_bien": "bien-009",
+          "type": "Entretien PAC",
+          "montant": 204
+        },
+        {
+          "contrat": "5313939-24199M",
+          "id_bien": "bien-010",
+          "type": "Entretien PAC",
+          "montant": 180
+        }
+      ]
+    },
+    "banque": {
+      "ratioActif": true,
+      "epargne": {
+        "initial": 0,
+        "monthly": 5000,
+        "rate": 8,
+        "duration": 20
+      }
+    },
+    "factures": {
+      "lignes": [],
+      "tri": {
+        "col": "date",
+        "asc": true
+      }
+    },
+    "renta": {
+      "inputs": {
+        "rentaCible": "5",
+        "duree": "20",
+        "taux": "3.5",
+        "prix": "50000",
+        "notaire": "4000",
+        "travaux": "5000",
+        "mobilier": "3000",
+        "tf": "300",
+        "assurance": "150",
+        "compta": "250",
+        "gli": "3",
+        "loyerPrix": "500",
+        "loyer": "1000",
+        "notaire2": "4000",
+        "travaux2": "5000",
+        "mobilier2": "3000",
+        "tf2": "300",
+        "assurance2": "150",
+        "compta2": "250",
+        "gli2": "3",
+        "rentaCible2": "8"
+      }
+    }
+  }
+}
